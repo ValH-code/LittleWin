@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "productId": "premium_monthly",
+      "type": "subs",
+      "price": "2990000",
+      "price_amount_micros": 2990000,
+      "price_currency_code": "EUR",
+      "title": "LittleWin Premium Mensuel",
+      "description": "Accès à toutes les fonctionnalités premium pour un mois",
+      "skuDetailsToken": "premium_monthly_token",
+      "subscriptionPeriod": "P1M",
+      "subscriptionOfferDetails": [
+        {
+          "offerId": "monthly_offer",
+          "pricingPhases": [
+            {
+              "priceAmountMicros": 2990000,
+              "priceCurrencyCode": "EUR",
+              "billingPeriod": "P1M",
+              "billingCycleCount": 0,
+              "recurrenceMode": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "premium_yearly",
+      "type": "subs",
+      "price": "19990000",
+      "price_amount_micros": 19990000,
+      "price_currency_code": "EUR",
+      "title": "LittleWin Premium Annuel",
+      "description": "Accès à toutes les fonctionnalités premium pour un an (économie 44%)",
+      "skuDetailsToken": "premium_yearly_token",
+      "subscriptionPeriod": "P1Y",
+      "subscriptionOfferDetails": [
+        {
+          "offerId": "yearly_offer",
+          "pricingPhases": [
+            {
+              "priceAmountMicros": 19990000,
+              "priceCurrencyCode": "EUR",
+              "billingPeriod": "P1Y",
+              "billingCycleCount": 0,
+              "recurrenceMode": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "lifetime",
+      "type": "inapp",
+      "price": "49990000",
+      "price_amount_micros": 49990000,
+      "price_currency_code": "EUR",
+      "title": "LittleWin Accès à vie",
+      "description": "Accès illimité à toutes les fonctionnalités pour toujours",
+      "skuDetailsToken": "lifetime_token"
+    }
+  ]
+}

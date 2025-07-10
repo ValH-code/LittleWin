@@ -1,0 +1,107 @@
+{
+  "configurations": [
+    {
+      "id": "premium_monthly",
+      "type": "RecurringSubscription",
+      "reference_name": "Premium Monthly",
+      "product_id": "premium_monthly",
+      "cleared_for_sale": true,
+      "review_notes": "",
+      "review_screenshot": "",
+      "localizations": [
+        {
+          "locale": "en-US",
+          "title": "LittleWin Premium Monthly",
+          "description": "Access to all premium features for one month"
+        },
+        {
+          "locale": "fr-FR",
+          "title": "LittleWin Premium Mensuel",
+          "description": "Accès à toutes les fonctionnalités premium pour un mois"
+        }
+      ],
+      "subscription_group_reference": "premium_subscriptions",
+      "subscription_duration": "P1M",
+      "prices": [
+        {
+          "locale": "USA",
+          "price": "2.99"
+        },
+        {
+          "locale": "FRA",
+          "price": "2.99"
+        }
+      ]
+    },
+    {
+      "id": "premium_yearly",
+      "type": "RecurringSubscription",
+      "reference_name": "Premium Yearly",
+      "product_id": "premium_yearly",
+      "cleared_for_sale": true,
+      "review_notes": "",
+      "review_screenshot": "",
+      "localizations": [
+        {
+          "locale": "en-US",
+          "title": "LittleWin Premium Yearly",
+          "description": "Access to all premium features for one year (44% savings)"
+        },
+        {
+          "locale": "fr-FR",
+          "title": "LittleWin Premium Annuel",
+          "description": "Accès à toutes les fonctionnalités premium pour un an (économie 44%)"
+        }
+      ],
+      "subscription_group_reference": "premium_subscriptions",
+      "subscription_duration": "P1Y",
+      "prices": [
+        {
+          "locale": "USA",
+          "price": "19.99"
+        },
+        {
+          "locale": "FRA",
+          "price": "19.99"
+        }
+      ]
+    },
+    {
+      "id": "lifetime",
+      "type": "NonConsumable",
+      "reference_name": "Lifetime Access",
+      "product_id": "lifetime",
+      "cleared_for_sale": true,
+      "review_notes": "",
+      "review_screenshot": "",
+      "localizations": [
+        {
+          "locale": "en-US",
+          "title": "LittleWin Lifetime Access",
+          "description": "Unlimited access to all features forever"
+        },
+        {
+          "locale": "fr-FR",
+          "title": "LittleWin Accès à vie",
+          "description": "Accès illimité à toutes les fonctionnalités pour toujours"
+        }
+      ],
+      "prices": [
+        {
+          "locale": "USA",
+          "price": "49.99"
+        },
+        {
+          "locale": "FRA",
+          "price": "49.99"
+        }
+      ]
+    }
+  ],
+  "subscription_groups": [
+    {
+      "reference": "premium_subscriptions",
+      "name": "Premium Subscriptions"
+    }
+  ]
+}
